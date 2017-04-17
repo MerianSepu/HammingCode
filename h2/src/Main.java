@@ -12,9 +12,6 @@ import java.util.logging.Logger;
  * @author Administrador
  */
 public class Main {
-
-    
-
     /**
      * @param args the command line arguments
      */
@@ -27,22 +24,9 @@ public class Main {
             String es = br.readLine();
             char []arr=sd.CodificarConJ(es);
             String df=sd.Calcular(arr);
-
-
-          System.out.println("Palabra Codificada:"+df);
-
+            System.out.println("Palabra Codificada:"+df);
         } catch (IOException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
-
-
-
-
-
-
-
-
     }
-
-    
 }
