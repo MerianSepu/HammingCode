@@ -16,7 +16,6 @@ public class Metodos {
         int var = 0;
         int i = 0;
         char[] arr = palab.toCharArray();
-
         while (var < arr.length) {
             if (cont - 1 == i) {
                 Codf[i] = 'j';
@@ -38,7 +37,6 @@ public class Metodos {
     public String Binario(int pos) {
         int temp = pos;
         String ret = "";
-
         while (temp > 0) {
             int z = temp % 2;
             ret = z + ret;
